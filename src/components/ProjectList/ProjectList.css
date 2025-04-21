@@ -1,0 +1,15 @@
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Spacing between cards */
+    padding: 20px 0;
+  }
+  
+  .error-message {
+      color: red;
+      font-weight: bold;
+      background-color: #ffebeb;
+      border: 1px solid red;
+      padding: 10px;
+      border-radius: 5px;
+  }
