@@ -11,7 +11,7 @@ function AddProjectPage() {
     const [status, setStatus] = useState('');
 
     // API endpoint remains the same
-    const API_URL = 'http://localhost:7000/api/projects';
+    const API_URL = 'https://portfolio-api-jyqy.onrender.com/api/projects';
 
     const handleChange = (e) => {
         const { id, value } = e.target;

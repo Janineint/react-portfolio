@@ -5,7 +5,7 @@ function AddSkillPage() {
     const [formData, setFormData] = useState({ name: '', level: '' });
     const [status, setStatus] = useState('');
 
-    const API_URL = 'http://localhost:7000/api/skills'; // Use skills endpoint
+    const API_URL = 'https://portfolio-api-jyqy.onrender.com/api/skills'; // Use skills endpoint
 
     const handleChange = (e) => {
         const { id, value } = e.target;

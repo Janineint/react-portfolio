@@ -5,7 +5,7 @@ function ContactForm() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [status, setStatus] = useState('');
 
-  const API_URL = 'http://localhost:7000/api/contact'; // Keep or update API endpoint
+  const API_URL = 'https://portfolio-api-jyqy.onrender.com/api/contact'; // Keep or update API endpoint
 
   const handleChange = (e) => {
     const { id, value } = e.target; // Use id to match state keys

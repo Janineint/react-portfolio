@@ -8,7 +8,7 @@ function Skills() {
   const [fetchError, setFetchError] = useState(null);
   const [deleteStatus, setDeleteStatus] = useState('');
 
-  const API_URL = 'http://localhost:7000/api/skills'; // API endpoint for skills
+  const API_URL = 'https://portfolio-api-jyqy.onrender.com/api/skills'; // API endpoint for skills
 
   useEffect(() => {
     setLoading(true);
