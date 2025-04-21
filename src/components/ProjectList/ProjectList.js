@@ -8,7 +8,7 @@ function ProjectList() {
   const [fetchError, setFetchError] = useState(null); // Separate error for fetching
   const [deleteStatus, setDeleteStatus] = useState(''); // Status for delete operations
 
-  const API_URL = 'http://localhost:7000/api/projects';
+  const API_URL = 'https://portfolio-api-jyqy.onrender.com/api/projects';
 
   // Fetch initial projects
   useEffect(() => {
